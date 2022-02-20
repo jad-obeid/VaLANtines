@@ -50,6 +50,10 @@ public class ClientHandler implements Runnable {
                 return MovieRecommendationApiHandler.handleRequest(request);
             case 3:
                 return CompatibilityHandler.handleRequest(request);
+            case 4:
+                return SignupHandler.handleRequest(request);
+            case 5:
+                return SigninHandler.handleRequest(request);
         }
         return null;
     }

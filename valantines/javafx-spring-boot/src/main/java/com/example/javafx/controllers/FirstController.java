@@ -22,7 +22,7 @@ public class FirstController {
     @FXML
     private void openFuncTab(ActionEvent event) throws IOException {
         System.out.println("You clicked me!");
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/functionalities.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/login.fxml"));
         AnchorPane pane = loader.load();
         starterId.getChildren().setAll(pane);
     }

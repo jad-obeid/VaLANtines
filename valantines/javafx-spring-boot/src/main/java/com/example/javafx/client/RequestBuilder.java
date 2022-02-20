@@ -32,5 +32,20 @@ public class RequestBuilder{
         names.add(fname);
         Request r=new Request(3, names);
         return r;
+    }
+    public static Request generateSignUpRequest(String username, String email, String password) {
+        ArrayList<String> credentials = new ArrayList<>();
+        credentials.add(username);
+        credentials.add(email);
+        credentials.add(password);
+        Request r = new Request(4,credentials);
+        return r;
+    }
+    public static Request generateSignInRequest(String username, String password) {
+        ArrayList<String> credentials = new ArrayList<>();
+        credentials.add(username);
+        credentials.add(password);
+        Request r = new Request(5,credentials);
+        return r;
     }    
 }
