@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="movieIdeasId" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-radius: 20px;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.controllers.FifthController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="211.0" style="-fx-background-color: #ffb7c5;">
+         <children>
+            <Button fx:id="recommendMovieId" layoutX="20.0" layoutY="313.0" mnemonicParsing="false" onAction="#getMovie" prefHeight="25.0" prefWidth="172.0" style="-fx-background-color: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.2));; -fx-background-radius: 10px; -fx-pref-height: 40px;" text="Recomend Movie" textFill="WHITE" />
+            <ImageView fitHeight="43.0" fitWidth="22.0" layoutX="12.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@backButton.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="backButton" layoutX="5.0" layoutY="1.0" mnemonicParsing="false" onAction="#goBack" prefHeight="53.0" prefWidth="62.0" style="-fx-background-color: Transparent;" />
+         </children>
+      </AnchorPane>
+      <Text fill="#ffb7c5" layoutX="239.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Movie Recommender" textAlignment="CENTER" wrappingWidth="319.4700012207031">
+         <font>
+            <Font name="Bell MT Italic" size="33.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="imageId" fitHeight="141.0" fitWidth="187.0" layoutX="341.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background3.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="titleId" layoutX="239.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="319.47000122070335">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="overviewId" layoutX="228.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="340.10797119140625">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

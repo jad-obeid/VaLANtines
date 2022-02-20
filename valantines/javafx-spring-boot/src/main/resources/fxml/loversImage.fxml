@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="imageMergerId" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffb7c5; -fx-background-radius: 20px;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.controllers.ThirdController">
+   <children>
+      <AnchorPane layoutX="252.0" prefHeight="400.0" prefWidth="348.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <ImageView fx:id="imageViewId" fitHeight="208.0" fitWidth="271.0" layoutX="77.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="image1Id" layoutX="14.0" layoutY="137.0" mnemonicParsing="false" onAction="#uploadImage1" prefHeight="25.0" prefWidth="216.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10px; -fx-pref-height: 40px;" text="Upload Image 1">
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.6803149606299211" startX="0.6283464566929134" startY="0.20472438541922983">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7490196228027344" green="0.47843137383461" blue="0.5333333611488342" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.4429824650287628" green="0.18594324588775635" blue="0.3273148238658905" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="imageId2" layoutX="14.0" layoutY="200.0" mnemonicParsing="false" onAction="#uploadImage2" prefHeight="25.0" prefWidth="216.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10px; -fx-pref-height: 40px;" text="Upload Image 2">
+         <textFill>
+            <LinearGradient endY="0.6803149606299211" startX="0.6283464566929134" startY="0.20472438541922983">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.75" green="0.47999998927116394" blue="0.5339999794960022" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.4429824650287628" green="0.18594324588775635" blue="0.3273148238658905" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="submitId" layoutX="31.0" layoutY="288.0" mnemonicParsing="false" onAction="#generateImage" prefHeight="25.0" prefWidth="183.0" style="-fx-background-color: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.2));; -fx-background-radius: 10px; -fx-pref-height: 40px;" text="Generate Image" textFill="WHITE" />
+      <ImageView fitHeight="43.0" fitWidth="22.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backButton.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="backButton" layoutX="5.0" layoutY="1.0" mnemonicParsing="false" onAction="#goBack" prefHeight="53.0" prefWidth="62.0" style="-fx-background-color: Transparent;" />
+      <Text fill="#bf7a88" layoutX="266.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lovers Image" textAlignment="CENTER" wrappingWidth="319.4700012207031">
+         <font>
+            <Font name="Bell MT Italic" size="48.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

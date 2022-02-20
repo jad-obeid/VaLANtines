@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="211.0" style="-fx-background-color: #ffb7c5;">
+         <children>
+            <ImageView fitHeight="153.0" fitWidth="211.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\hebar\NetworkProg-project1\valantines\javafx-spring-boot\src\main\resources\fxml\background3.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text fill="#ffb7c5" layoutX="239.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log in" textAlignment="CENTER" wrappingWidth="319.4700012207031">
+         <font>
+            <Font name="Bell MT Italic" size="33.0" />
+         </font>
+      </Text>
+      <Text fill="#81a4e3" layoutX="239.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass=".text{    -fx-background-color: -fx-text-box-border, -fx-background ;    -fx-background-insets: 0, 0 0 1 0 ;    -fx-background-radius: 0 ;}" text="Enter Username" wrappingWidth="211.0">
+         <font>
+            <Font name="Californian FB Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField alignment="CENTER" layoutX="239.0" layoutY="137.0" prefHeight="25.0" prefWidth="307.0" promptText="Heba" style="-fx-background-color: linear-gradient(to right, rgba(255, 217, 222,0.3), rgba(233, 155, 166,0.76) ); -fx-background-radius: 10px;" />
+      <Text fill="#81a4e3" layoutX="239.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass=".text{    -fx-background-color: -fx-text-box-border, -fx-background ;    -fx-background-insets: 0, 0 0 1 0 ;    -fx-background-radius: 0 ;}" text="Enter Password" wrappingWidth="211.0">
+         <font>
+            <Font name="Californian FB Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField alignment="CENTER" layoutX="239.0" layoutY="208.0" prefHeight="25.0" prefWidth="307.0" promptText="Heba" style="-fx-background-color: linear-gradient(to right, rgba(255, 217, 222,0.3), rgba(233, 155, 166,0.76) ); -fx-background-radius: 10px;" />
+      <Button layoutX="307.0" layoutY="284.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="171.0" style="-fx-background-color: linear-gradient( #f89b9e 0%, #c9d9ff 74%); -fx-background-radius: 10px; -fx-pref-height: 40px;" text="Submit" textFill="WHITE" />
+      <Button layoutX="440.0" layoutY="347.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: linear-gradient( #f89b9e 0%, #c9d9ff 74%); -fx-background-radius: 10px; -fx-pref-height: 20px;" text="Sign Up" textFill="WHITE" />
+      <Text fill="#81a4e3" layoutX="239.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass=".text{    -fx-background-color: -fx-text-box-border, -fx-background ;    -fx-background-insets: 0, 0 0 1 0 ;    -fx-background-radius: 0 ;}" text="Don't have account yet?" textAlignment="CENTER" wrappingWidth="211.0">
+         <font>
+            <Font name="Californian FB Bold" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
