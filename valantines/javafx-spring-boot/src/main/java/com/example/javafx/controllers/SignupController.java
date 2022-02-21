@@ -44,7 +44,7 @@ public class SignupController {
         result = result.substring(2);
         System.out.println(result);
         if(result.equals("success")){
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/functionalities.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/login.fxml"));
             AnchorPane pane = loader.load();
             signupId.getChildren().setAll(pane);
         }
